@@ -1,7 +1,7 @@
 
 const express = require('express'),
     app = express(),
-    defaultRoute = require('./Routes/checkServer'),
+    defaultRoute = require('./Routes/defaultRoute'),
     bodyParser = require('body-parser'),
     cors = require('cors'),
     morgan = require('morgan');
